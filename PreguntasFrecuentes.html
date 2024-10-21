@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alga</title>
+    <link rel="icon" type="png" href="img/Artwork-22b574a4-d7f8-4bfd-a3ca-5318621a542b-removebg-preview.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+
+
+</head>
+
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Artwork-22b574a4-d7f8-4bfd-a3ca-5318621a542b-removebg-preview.png" width="32px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-toggler-icon-custom"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html"
+                            style=" margin-left: 0px;"><i class="bi bi-house"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="AtencionCliente.html"><i class="bi bi-headset"></i>
+                            Atención al cliente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="PreguntasFrecuentes.html"><i class="bi bi-people-fill"></i>
+                            Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Conocenos.html"><i class="bi bi-hand-index-fill"></i>
+                            Conocenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Dashboard.html"><i class="bi bi-bar-chart-fill"></i>
+                            Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+
+            <div class="accordion" id="faqAccordion">
+                <!-- Pregunta 1 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="question1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#answer1" aria-expanded="true" aria-controls="answer1">
+                            ¿Cómo puedo solicitar una conexión al acueducto?
+                        </button>
+                    </h3>
+                    <div id="answer1" class="accordion-collapse collapse show" aria-labelledby="question1"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Para solicitar una conexión al acueducto, debes seguir estos pasos:
+                            <ol>
+                                <li>Completa el formulario de solicitud que se encuentra en nuestra página web.</li>
+                                <li>Adjunta los documentos requeridos, como el certificado de propiedad y la cédula de
+                                    ciudadanía.</li>
+                                <li>Envía la solicitud y documentos a nuestro correo electrónico o preséntalos en
+                                    nuestras oficinas.</li>
+                            </ol>
+                            Nuestro equipo revisará tu solicitud y te contactará para informarte sobre los siguientes
+                            pasos a seguir.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pregunta 2 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="question2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#answer2" aria-expanded="false" aria-controls="answer2">
+                            ¿Cuál es el costo de la conexión al acueducto?
+                        </button>
+                    </h3>
+                    <div id="answer2" class="accordion-collapse collapse" aria-labelledby="question2"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            El costo de la conexión al acueducto varía según la ubicación del predio:
+                            <ul>
+                                <li>Para veredas de Pinchote, el costo es de 2.5 salarios mínimos.</li>
+                                <li>Para veredas ajenas a Pinchote, el costo es de 3 salarios mínimos.</li>
+                            </ul>
+                            Es importante tener en cuenta que estos costos pueden estar sujetos a ajustes y deben ser
+                            pagados antes de realizar la conexión.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Pregunta 3 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="question3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#answer3" aria-expanded="false" aria-controls="answer3">
+                            ¿Cuál es el tiempo estimado para la instalación del punto de agua?
+                        </button>
+                    </h3>
+                    <div id="answer3" class="accordion-collapse collapse" aria-labelledby="question3"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            El tiempo estimado para la instalación del punto de agua es de 1 a 2 semanas después de
+                            realizado el pago. Este plazo puede variar según la disponibilidad de recursos y las
+                            condiciones del terreno en tu área.
+                            Nuestro equipo se esforzará por completar la instalación en el menor tiempo posible y te
+                            mantendremos informado sobre el progreso del proceso.
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Pregunta 4 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="question4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#answer4" aria-expanded="false" aria-controls="answer4">
+                            ¿Cuáles son los cobros realizados y su valor mensual?
+                        </button>
+                    </h3>
+                    <div id="answer4" class="accordion-collapse collapse" aria-labelledby="question4"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Los cobros realizados y su valor mensual son los siguientes: <br>
+
+                            - Cobro Básico: El cobro básico mensual es de 15,000 pesos. Este monto cubre los costos
+                            fijos asociados al servicio de agua. <br>
+
+                            - Consumo de agua: El valor del consumo de agua varía según los metros cúbicos utilizados
+                            por el usuario. A continuación se detallan los rangos y sus respectivos valores por metro
+                            cúbico: <br>
+
+                            <ul>
+                                - De 0 a 30 metros cúbicos: Se cobra a 2,000 pesos por cada metro cúbico.
+                            </ul>
+                            <ul>
+                                - De 30 a 50 metros cúbicos: Se cobra el doble del valor, es decir, 4,000 pesos por
+                                cada
+                                metro cúbico.
+                            </ul>
+                            <ul>
+                                - De 50 metros cúbicos en adelante: Se vuelve a duplicar el valor, por lo que se
+                                cobra
+                                8,000
+                                pesos por cada metro cúbico.
+                            </ul>
+
+                            Es importante tener en cuenta que estos valores corresponden al consumo mensual de agua y se
+                            suman al cobro básico. Además, recuerda que estos precios aplican únicamente para el consumo
+                            de agua destinado a uso personal y no industrial. <br>
+
+                            Ten en cuenta que esta información es solo un ejemplo basado en los datos proporcionados.
+                            Puedes ajustar los valores y los rangos de consumo según las políticas y tarifas
+                            establecidas por tu acueducto.
+                        </div>
+                    </div>
+                </div>
+                <!-- Pregunta 5 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="question5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#answer5" aria-expanded="false" aria-controls="answer5">
+                            ¿Por qué el agua esta llegando turbia?
+                        </button>
+                    </h3>
+                    <div id="answer5" class="accordion-collapse collapse" aria-labelledby="question5"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            El agua puede llegar sucia debido a una decisión tomada en asamblea. Se decidió no tratar el
+                            agua, ya que esto aumentaría los costos hasta en un 80%. En cambio, se optó por reemplazar
+                            el tratamiento centralizado del agua con la instalación de sistemas de filtración de agua en
+                            cada finca de los usuarios. <br>
+
+                            Esta decisión fue tomada considerando aspectos económicos y de eficiencia. Al tener sistemas
+                            de filtración individuales en cada finca, se busca que los usuarios sean responsables de
+                            garantizar la calidad del agua que reciben. Sin embargo, es importante tener en cuenta que
+                            estos sistemas de filtración deben ser mantenidos adecuadamente por cada usuario para
+                            asegurar un suministro de agua limpia y libre de impurezas.<br>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pregunta 6 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="question6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#answer6" aria-expanded="false" aria-controls="answer6">
+                            ¿Cuántos usuarios están conectados al acueducto?
+                        </button>
+                    </h3>
+                    <div id="answer6" class="accordion-collapse collapse" aria-labelledby="question6"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Actualmente, estamos conectando a un total de 275 familias que residen en 12 veredas
+                            distribuidas en 3 municipios. Nuestro objetivo es proporcionar un servicio de calidad a cada
+                            uno de nuestros usuarios y asegurar un suministro adecuado de agua para sus necesidades
+                            diarias.
+
+                            A medida que la demanda de agua crece y se incorporan nuevos usuarios, nos esforzamos por
+                            mejorar continuamente nuestras infraestructuras y sistemas de distribución para mantener la
+                            eficiencia y calidad del servicio. Seguimos trabajando en la expansión de nuestra red para
+                            llegar a más comunidades y proporcionar un acceso confiable al agua potable.
+        
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h3>Otros Servicios</h3>
+
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="cards">
+                <a href="https://wa.me/573138933668" target="_blank">
+                    <img src="img/entrega-facturas-predial.jpg" class="card-img-top" alt=" ">
+                    <div class="card-body">
+                </a>
+                <h5 class="card-title">Solicitar Su Recibo Online</h5>
+                <p class="card-text">Solicite su recibo de agua de forma digital y simplifique su experiencia. A
+                    través de este servicio, puede recibir su recibo de manera rápida y conveniente, sin necesidad
+                    de trámites presenciales. </p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="cards">
+            <a href="https://wa.me/573138933668" target="_blank">
+                <img src="img/contador-de-agua-bogota.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+            </a>
+            <h5 class="card-title">Reportar Daño en su Medidor</h5>
+            <p class="card-text">En este apartado, le brindamos la posibilidad de reportar cualquier daño o
+                avería en su contador de agua de manera rápida y sencilla. Si ha detectado algún problema como
+                lecturas incorrectas, fugas o mal funcionamiento, no dude en informarnos. </p>
+        </div>
+    </div>
+    </div>
+    <div class="col">
+        <div class="cards">
+            <a href="SolicitudesPuntos.html">
+                <img src="img/finca con medidor.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+            </a>
+            <h5 class="card-title">Puntos de agua </h5>
+            <p class="card-text">En este apartado, le ofrecemos la oportunidad de obtener información detallada
+                sobre la compra de un punto de agua. Si está interesado en adquirir un punto de abastecimiento
+                de agua, estamos aquí para brindarle la asesoría
+                necesaria.</p>
+        </div>
+    </div>
+    </div>
+    <div class="col">
+        <div class="cards">
+            <a href="mapa.html">
+                <img src="img/santander.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+            </a>
+            <h5 class="card-title">Conoce Nuestra Ubicacion</h5>
+            <p class="card-text">Descubre nuestro mapa interactivo que muestra la ubicación detallada de
+                todo
+                nuestro acueducto. Explora cada sección y obtén información precisa sobre nuestra
+                infraestructura hídrica.</p>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+    <footer class="bg-dark text-center text-white" style="margin-top: 30px;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="https://github.com/carlosRodriguez120">CarlosRodriguez120</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
