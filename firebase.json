@@ -6,8 +6,5 @@
       "**/.*",
       "**/node_modules/**"
     ]
-  },
-  "remoteconfig": {
-    "template": "  index.html"
   }
 }
